@@ -15,13 +15,13 @@
 **\<img>** -> Son las que más se utilizan y son las que más problemas suelen traer. [Documentación oficial.](https://developer.mozilla.org/es/docs/Web/HTML/Element/img)
 
 + Los formatos de imágenes para web los podemos clasificar en 2 tipos:
-    + Vectoriales:
-        + svg -> formato de archivo vectorial que solo se abre en un navegador (recomendado siempre que se pueda). Se puede insertar en HTML a través de **\<img>** o copiando y pegando todo su código. SI se necesita trabajar con el svg a través de CSS o JavaScript para hacer algún tipo de programación o modificación del mismo en tiempo real, entonces se debe copiar y pegar todo el código.
-    + Mapa de bits:
-        + jpg -> formato más comprimido pero no soporta animaciones ni transparencias.
-        + png 8 y 24 (si necesitáis transparencias)
-        + gif (si necesitais una imágen animada)
-        + webp -> el formato que menos pesa y principalmente para web. [Documentación oficial.](https://developers.google.com/speed/webp) - [Conversor de imágenes webp.](https://imagen.online-convert.com/es/convertir-a-webp)
+    + __Vectoriales__:
+        + **svg** [(documentación oficial)](https://developer.mozilla.org/es/docs/Web/SVG) -> formato de archivo vectorial que solo se abre en un navegador (recomendado siempre que se pueda). Se puede insertar en HTML a través de **\<img>** o copiando y pegando todo su código. Si se necesita trabajar con el svg a través de CSS o JavaScript para hacer algún tipo de programación o modificación del mismo en tiempo real, entonces se debe copiar y pegar todo el código.
+    + __Mapa de bits:__
+        + **jpg** -> formato más comprimido pero no soporta animaciones ni transparencias.
+        + __png 8 y 24__ (si necesitáis transparencias)
+        + **gif** (si necesitais una imágen animada)
+        + __webp__ -> el formato que menos pesa y principalmente para web. [Documentación oficial.](https://developers.google.com/speed/webp) - [Conversor de imágenes webp.](https://imagen.online-convert.com/es/convertir-a-webp)
 
 ### Diferencia entre svg y una imágen de mapa de bits.
 

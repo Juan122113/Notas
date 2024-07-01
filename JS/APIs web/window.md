@@ -91,6 +91,5 @@ element.onclick = functionRef;
 O se puede usar una función anónima, como esta:
 
 ```js
-p.onclick = function(event) { alert("moot!");
-};
+p.onclick = function(event) { alert("moot!"); };
 ```
