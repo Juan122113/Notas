@@ -1,4 +1,9 @@
-# element
+# element 07/02
+
+
+[Documentación oficial](https://developer.mozilla.org/en-US/docs/Web/API/Element)
+
+`element` en la API de DOM representa un objeto de un documento HTML o XML. Es el tipo base más general de un objeto en la jerarquía de nodos del DOM. Los elementos pueden tener atributos y contienen otros nodos, incluidos texto y otros elementos. Es la clase base para las clases más específicas como `HTMLElement`, `SVGElement`, etc.
 
 
 ## Element: evento click 06/29
