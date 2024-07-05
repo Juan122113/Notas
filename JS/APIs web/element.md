@@ -9,8 +9,10 @@
 ## Métodos.
 
 
-### Element.geAttribute() 07/04
+### Element.getAttribute() 07/04
 
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Element/getAttribute)
 
 `getAttribute()` devuelve el valor del atributo especificado en el elemento. Si el atributo especificado no existe, el valor retornado puede ser tanto `null` como `""` (una cadena vacía).
 

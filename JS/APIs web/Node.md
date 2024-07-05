@@ -19,6 +19,7 @@ En el contexto del DOM (Document Object Model), un **Node** es una unidad básic
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
+
 [Ejemplo](https://github.com/Juan122113/beginner-html-site-styled-gh-pages/blob/main/scripts/main.js)
 
 La propiedad `texContent` de la interfaz `Node` representa el contenido de texto de un nodo y sus descendientes.
