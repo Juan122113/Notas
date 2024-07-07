@@ -36,6 +36,35 @@ Retorna una referencia al documento contenido en la ventana.
 ```
 
 
+## Métodos
+
+
+### Window.prompt() 07/06
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
+
+El método `Window.prompt()` muestra un diálogo con mensaje opcional, que solicita al usuario que introduzca un texto. Opcionalmente, también se puede agregar que figure el texto que se prefiera en el espacio donde se coloca la entrada de texto. 
+
+
+#### Ejemplo
+
+
+```js
+let sign = prompt("What's your sign?");
+
+if (sign.toLowerCase() == "aquarius") {
+  alert("Wow! I'm a Aquarius too!");
+}
+
+// there are mant ways to use the prompt feature
+sign = window.prompt(); // open the blank prompt window
+sign = prompt(); // open the blank prompt window
+sign = window.prompt("Are you feeling lucky?"); // open the window with Text "Are you feeling lucky?"
+sing = window.prompt("Are you feeling lucky?", "sure"); // open the window with Text "Are you feeling lucky?" and default value "sure"
+```
+
+
 ## Eventos
 
 
