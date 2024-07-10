@@ -36,6 +36,30 @@ Retorna una referencia al documento contenido en la ventana.
 ```
 
 
+### Windows.localStorage
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+
+[Ejemplo](https://github.com/Juan122113/beginner-html-site-styled-gh-pages/blob/main/scripts/main.js)
+
+La propiedad de solo lectura `localStorage` te permite acceder al objeto local `Storage`; los datos persisten almacenados entre las diferentes sesiones de navegación.
+
+
+#### Sintaxis
+
+
+```js
+miStorage = window.localStorage;
+```
+
+
+##### Valor
+
+
+Un objeto `Storage` que se puede utilizar para acceder al espacio de almacenamiento local del origen actual.
+
+
 ## Métodos
 
 
