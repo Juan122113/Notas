@@ -36,7 +36,9 @@ Retorna una referencia al documento contenido en la ventana.
 ```
 
 
-### Windows.localStorage
+<div id="localStorage">
+
+### Windows.localStorage 07/12 
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
@@ -58,6 +60,62 @@ miStorage = window.localStorage;
 
 
 Un objeto `Storage` que se puede utilizar para acceder al espacio de almacenamiento local del origen actual.
+
+
+### Window.sessionStorage
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/sessionStorage)
+
+La propiedad `sessionStorage` permite acceder a un objeto `Storage` asociado a la sesión actual. La propiedad `sessionStorage` es similar a [`localStorage`](#localStorage), la única diferencia es que la información almacenada en `localStorage` no posee tiempo de expiración, por el contrario la información almacenada en `sessionStorage` es eliminada al finalizar la sesión de la página.
+
+
+#### Sintaxis
+
+
+```js
+// Almacena la información en sessionStorage
+sessionStorage.setItem("key", "value");
+
+// Obtiene la información almacenada desde sessionStorage
+var data = sessionStorage.getItem("key");
+```
+
+
+##### Valor
+
+
+Un objeto de tipo `Storage`.
+
+
+#### Ejemplo
+
+
+El siguiente código accede al objeto `Storage` de la sesión actual del dominio y le añade un elemento utilizando `Storage.setItem()`.
+
+```js
+sessionStorage.setItem("myCat", "Tom");
+```
+
+El siguiente ejemplo graba de forma automática el contenido de un campo de texto, y si el navegador es actualizado accidentalmente, restaura el contenido del campo de texto para no perder lo escrito.
+
+```js
+// Obtiene el campo de texto que vamos a monitorear
+var field = document.getElementById("field");
+
+// Verificamos si tenemos algún valor auto guardado
+// (esto solo ocurrirá si la página es recargada accidentalmente)
+if (sessionStorage.getItem("autosave")) {
+  // Restaura el contenido al campo de texo
+  field.value = sessionStorage.getItem("autosave");
+}
+
+// Espera por cambios en el campo de texto
+field.addEventListener("change", function () {
+  // Almacena el resultado en el objeto de almacenamiento de sesión
+  sessionStorage.setItem("autosave", field.value);
+})
+```
 
 
 ## Métodos
