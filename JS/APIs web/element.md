@@ -76,7 +76,7 @@ b.setAttribute("disabled", "");
 Esto demustra dos cosas:
 
 - La primera llamada a `setAttribute()` muestra cómo se cambia el valor del atributo `name` a "helloButton". Puede ver esto utilizando el inspector de página de su navegador.
-- Para establecer el valor de un atributo booleano, como `disabled` se puede especificar cualquier valor. Una cadena de texto vacía o el nombre de un atributo son valores recomendados. Todos lo que importa es que si el atributo está presente, *independientemente de su valor actual*, su valor se considera como `true`. La ausencia del atributo significa que su valor es `false`. Estableciendo una cadena vacía (`""`) como el valor del atributo `disabled`, se estaría cambiando `disabled` a `true`, lo que provoca que el botón sea deshabilitado.
+- Para establecer el valor de un atributo booleano, como `disabled` se puede especificar cualquier valor. Una cadena de texto vacía o el nombre de un atributo son valores recomendados. Todo lo que importa es que si el atributo está presente, *independientemente de su valor actual*, su valor se considera como `true`. La ausencia del atributo significa que su valor es `false`. Estableciendo una cadena vacía (`""`) como el valor del atributo `disabled`, se estaría cambiando `disabled` a `true`, lo que provoca que el botón sea deshabilitado.
 
 
 ## Element: evento click 06/29
