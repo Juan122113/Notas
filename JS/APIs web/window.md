@@ -67,7 +67,7 @@ Un objeto `Storage` que se puede utilizar para acceder al espacio de almacenamie
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/sessionStorage)
 
-La propiedad `sessionStorage` permite acceder a un objeto `Storage` asociado a la sesión actual. La propiedad `sessionStorage` es similar a [`localStorage`](#localStorage), la única diferencia es que la información almacenada en `localStorage` no posee tiempo de expiración, por el contrario la información almacenada en `sessionStorage` es eliminada al finalizar la sesión de la página.
+La propiedad `sessionStorage` permite acceder a un objeto `Storage` asociado a la sesión actual. La propiedad `sessionStorage` es similar a [`localStorage`](#localStorage), la única diferencia es que la información almacenada en [`localStorage`](#localStorage) no posee tiempo de expiración, por el contrario la información almacenada en `sessionStorage` es eliminada al finalizar la sesión de la página.
 
 
 #### Sintaxis
@@ -139,7 +139,7 @@ if (sign.toLowerCase() == "aquarius") {
   alert("Wow! I'm a Aquarius too!");
 }
 
-// there are mant ways to use the prompt feature
+// there are many ways to use the prompt feature
 sign = window.prompt(); // open the blank prompt window
 sign = prompt(); // open the blank prompt window
 sign = window.prompt("Are you feeling lucky?"); // open the window with Text "Are you feeling lucky?"
