@@ -40,3 +40,28 @@ function setStyles() {
     imgElem.setAttribute("src", currentImage);
 }
 ```
+
+
+## Métodos
+
+
+### Storage.setItem() 07/21
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/setItem)
+
+El método `setItem()` de la interfaz `Storage`, cuando reciba una clave y un valor, añadirá estos al almacén, o actualizará el valor si la clave ya existe.
+
+
+#### Ejemplo
+
+
+La siguiente función crea tres ítems dentro del almacenamiento local.
+
+```js
+function populateStorage() {
+    localStorage.setItem("bgcolor", "red");
+    localStorage.setItem("font", "Helvetica");
+    localStorage.setItem("image", "myCat.png");
+}
+```

@@ -16,7 +16,7 @@ La interfaz `Document` representa cualquier página web cargada en el navegador 
 ## Métodos.
 
 
-### Document.querySelector() 20/06
+### Document.querySelector()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Document/querySelector)
