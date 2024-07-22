@@ -1,4 +1,4 @@
-# Document. 06/21
+# Document
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Document)
