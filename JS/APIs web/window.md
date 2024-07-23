@@ -1,4 +1,4 @@
-# Window. 06/23
+# Window
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window)
