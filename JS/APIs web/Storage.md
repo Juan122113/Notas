@@ -6,6 +6,8 @@
 La interfaz `Storage` de la API de almacenamiento web provee acceso al almacenamiento de la sesión o al almacenamiento local para un dominio en particular, permitiéndote, por ejemplo, añadir, modificar o eliminar elementos de datos almacenados.
 
 
+<div id = "EjemploStorage"></div>
+
 ## Ejemplo.
 
 
@@ -43,6 +45,41 @@ function setStyles() {
 
 
 ## Métodos
+
+
+### Storage.getItem() 07/23
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/getItem)
+
+El método `getItem()` de la interfaz `Storage` devuelve el valor de la clave cuyo nombre se le pasa por parámetro.
+
+
+#### Sintaxis
+
+
+```js
+var aValue = storage.getItem(keyName);
+```
+
+
+##### Parámetros
+
+
+*`keyName`*
+    Una `DOMString` que contiene el nombre de la clave cuyo valor se quiere obtener.
+
+
+##### Devuelve
+
+
+Una `DOMString` que contiene el valor de la clave.
+
+
+#### Ejemplo
+
+
+Ver [ejemplo de Storage](#EjemploStorage)
 
 
 ### Storage.setItem() 07/21
