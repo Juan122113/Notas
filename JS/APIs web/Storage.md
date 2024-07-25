@@ -102,3 +102,47 @@ function populateStorage() {
     localStorage.setItem("image", "myCat.png");
 }
 ```
+
+
+### Storage.removeItem() 07/25
+
+
+El método `removeItem()` de la interfaz `Storage` elimina la clave cuyo nombre recibe por parámetro del almacenamiento.
+
+
+#### Sintaxis
+
+
+```js
+storage.removeItem(keyName);
+```
+
+
+##### Parámetros
+
+
+***keyName***
+
+    Una `DOMString` que contiene el nombre de la clave que se desea eliminar.
+
+
+##### Devuelve
+
+
+Ningún valor.
+
+
+#### Ejemplo
+
+
+```js
+function populateStorage() {
+    localStorage.setItem("bgcolor", "red");
+    localStorage.setItem("font", "Helvetica");
+    localStorage.setItem("image", "myCat.png");
+
+    localStorage.removeItem("image");
+}
+```
+
+De la misma manera funciona con `sessionStorage`.
