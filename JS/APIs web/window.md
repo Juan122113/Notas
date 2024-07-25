@@ -9,7 +9,7 @@ El objeto `window` representa la ventana que contiene un documento DOM, o sea, e
 ## Propiedades.
 
 
-### Window.document 06/25
+### Window.document
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/document)
