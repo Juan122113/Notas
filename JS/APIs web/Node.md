@@ -1,4 +1,4 @@
-# Node. 06/26
+# Node
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Node)
