@@ -15,7 +15,7 @@ En el contexto del DOM (Document Object Model), un **Node** es una unidad básic
 ## Propiedades de instancia.
 
 
-### Node.textContent 06/28
+### Node.textContent
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Node/textContent)
