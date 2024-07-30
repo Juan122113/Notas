@@ -150,7 +150,7 @@ sing = window.prompt("Are you feeling lucky?", "sure"); // open the window with 
 ## Eventos
 
 
-### GlobalEventHandlers.onclick 06/30
+### GlobalEventHandlers.onclick
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/conflicting/Web/API/Element/click_event)
