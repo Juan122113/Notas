@@ -1,4 +1,4 @@
-# element 07/02
+# element
 
 
 [Documentación oficial](https://developer.mozilla.org/en-US/docs/Web/API/Element)
