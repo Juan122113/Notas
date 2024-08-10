@@ -121,7 +121,7 @@ field.addEventListener("change", function () {
 ## Métodos
 
 
-### Window.prompt() 07/06
+### Window.prompt()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)

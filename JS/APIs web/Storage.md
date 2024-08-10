@@ -107,6 +107,8 @@ function populateStorage() {
 ### Storage.removeItem() 07/25
 
 
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/removeItem)
+
 El método `removeItem()` de la interfaz `Storage` elimina la clave cuyo nombre recibe por parámetro del almacenamiento.
 
 
@@ -146,3 +148,25 @@ function populateStorage() {
 ```
 
 De la misma manera funciona con `sessionStorage`.
+
+
+### Storage.clear() 08/08
+
+
+[Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/clear)
+
+El método `clear()`, al invocarlo, elimina todos los registros del almacén local.
+
+
+#### Ejemplo
+
+
+```js
+function populateStorage() {
+    localStorage.setItem("bgcolor", "red");
+    localStorage.setItem("font", "Helvetica");
+    localStorage.setItem("image", "myCat.png");
+
+    localStorage.clear();
+}
+```
