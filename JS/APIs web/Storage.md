@@ -1,4 +1,4 @@
-# Storage 07/16
+# Storage
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage)
@@ -47,7 +47,7 @@ function setStyles() {
 ## Métodos
 
 
-### Storage.getItem() 07/23
+### Storage.getItem()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/getItem)
@@ -82,7 +82,7 @@ Una `DOMString` que contiene el valor de la clave.
 Ver [ejemplo de Storage](#EjemploStorage)
 
 
-### Storage.setItem() 07/21
+### Storage.setItem()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/setItem)

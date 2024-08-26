@@ -38,7 +38,7 @@ Retorna una referencia al documento contenido en la ventana.
 
 <div id="localStorage">
 
-### Windows.localStorage 07/12 
+### Windows.localStorage 
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
