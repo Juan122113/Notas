@@ -104,7 +104,7 @@ function populateStorage() {
 ```
 
 
-### Storage.removeItem() 07/25
+### Storage.removeItem()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/removeItem)
