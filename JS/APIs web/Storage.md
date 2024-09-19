@@ -150,7 +150,7 @@ function populateStorage() {
 De la misma manera funciona con `sessionStorage`.
 
 
-### Storage.clear() 08/08
+### Storage.clear()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Storage/clear)
