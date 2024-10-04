@@ -161,7 +161,7 @@ Una `Promise` que resuelve a un objeto `Response`.
 #### Ejemplo
 
 
-En el ejemplo de solicitud con Request creamos un nuevo objeto `Request` usando el constructor pertinente, y realizamos una solicitud usando `fetch()`. Dado que estamos solicitando una imagen, ejecutamos `Body.blob()` en la respuesta para darle el tipo MIME correspondiente para que sea gestionada apropiadamente, luego creamos un objeto URL de ella para mosrarla en un elemento `<img>`.
+En el ejemplo de solicitud con Request creamos un nuevo objeto `Request` usando el constructor pertinente, y realizamos una solicitud usando `fetch()`. Dado que estamos solicitando una imagen, ejecutamos `Body.blob()` en la respuesta para darle el tipo MIME correspondiente para que sea gestionada apropiadamente, luego creamos un objeto URL de ella para mostrarla en un elemento `<img>`.
 
 ```js
 var miImagen = document.querySelector("img");
