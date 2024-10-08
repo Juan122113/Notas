@@ -45,3 +45,66 @@ En este ejemplo, obtendremos el primer elemento del documento con la clase "miCl
 ```js
 var el = document.querySelector(".miClase");
 ```
+
+
+### Document.getElementById()
+
+
+[Documentación oficial.](https://developer.mozilla.org/es/docs/Web/API/Document/getElementById)
+
+Devuelve una referencia al elemento por su ID.
+
+
+#### Sintaxis
+
+
+```js
+elemento = document.getElementById(id);
+```
+
+
+##### Parámetros
+
+
+`id`
+
+Es una cadena sensible a mayúsculas referida al ID único del elemento buscado.
+
+
+##### Valor Retornado
+
+
+`element`
+
+Es una referencia a un objeto `Element`, o `null` si un elemento con el ID especificado no se encuentra en el documento.
+
+
+#### Ejemplo
+
+
+##### HTML
+
+
+```html
+<html>
+	<head>
+		<title>Ejemplo getElementById</title>
+	</head>
+	<body>
+		<p id="para">Cualquier texto acá</p>
+		<button onclick="changeColor('blue');">Azul</button>
+		<button onclick="changeColor('red');">Rojo</button>
+	</body>
+</html>
+```
+
+
+##### JavaScript
+
+
+```js
+function changeColor(newColor) {
+	var elem = document.getElementById("para");
+	elem.style.color = newColor;
+}
+```
