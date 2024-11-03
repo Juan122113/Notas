@@ -121,7 +121,7 @@ field.addEventListener("change", function () {
 ## Métodos
 
 
-### Window.fetch() 09/25
+### Window.fetch()
 
 
 [Documentación oficial](https://developer.mozilla.org/es/docs/Web/API/Window/fetch)
